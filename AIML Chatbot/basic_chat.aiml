@@ -1,0 +1,24 @@
+<aiml version="1.0.1" encoding="UTF-8"
+   <category>
+       <pattern>HELLO</pattern>
+       <template>
+       Well, Hello There!
+       </template>
+    </category>
+
+    <category>
+        <pattern> HOW ARE YOU</pattern>
+        <template>
+            I'm good, how may i help you!
+        </template>
+    </category>
+
+    <category>
+         <pattern>I WANT TO *</pattern>
+         <template>
+              <random>
+                   Ok sure,please give me the details.
+               </random>
+         </template> 
+    </category> 
+</aiml>                  
