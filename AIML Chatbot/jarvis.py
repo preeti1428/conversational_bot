@@ -5,4 +5,6 @@ kernel.respond("load aiml b")
 
 while True:
     print kernel.respond(raw_input("Enter your message >> "))
+    response = kernel.respond(input_text)
+    print(response)
    
